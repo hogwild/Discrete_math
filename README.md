@@ -52,16 +52,10 @@
 ###### Exercises 34
 (a)
 
-p | p $\oplus$ p  
---- | ---  
-T | F  
+p | p $\oplus$ p
+--- | ---
+T | F
 F | F
-
-Markdown | p $\oplus$ p | p $\oplus$ p
---- | --- | ---
-1 | 2 | 3
-4 | 5 | 6
-
 
 (b)
 
