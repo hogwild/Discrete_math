@@ -51,14 +51,13 @@
 
 ###### Exercises 34
 (a)
-p | p$\oplus$p
---- | ---
-T | F
-F | F
+p | p $\oplus$ p |
+--- | --- |
+T | F |
+F | F |
 
 Markdown | Less | Pretty
 --- | --- | ---
-*Still* | `renders` | **nicely**
 1 | 2 | 3
 
 
