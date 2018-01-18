@@ -3,47 +3,49 @@
 ## Week 1:
 #### Chapter 1.1
 ###### Exercises 6 (p13):
-(a) True. Because 288 is the largest of the three numbers.
-(b) True. 5MP is higher than 4MP.
-(c) False.
-(d) False. The hypothesis of the conditional statements is true and the conclusion is false.
-(e) False. because the first part of the biconditional statement is false and the second part is true. (or we can say, the truth values of the first part and the second part of the biconditional statement are different.)
+(a) True. Because 288 is the largest of the three numbers.  
+(b) True. 5MP is higher than 4MP.  
+(c) False.  
+(d) False. The hypothesis of the conditional statements is true and the conclusion is false.  
+(e) False. because the first part of the biconditional statement is false and the second part is true. (or we can say, the truth values of the first part and the second part of the biconditional statement are different.)  
 
 ###### Exercises 8
-(a) I did not buy a lottery ticket this week.
-(b) I bought a lottery ticket this week, or, I won the million dollar jackpot.
-(c) If I bought a lottery ticket this week, then I won the million dollar jackpot.
-(d) I bought a lottery ticket this week and I won the million dollar jackpot.
-(e) I bought a lottery ticket this week if and only if I won the million dollar jackpot.
-(f) If I did not buy a lottery ticket this week, then I did not win the million dollar jackpot.
-(g) I did not buy a lottery ticket this week and I did not win the million dollar jackpot.
-(h) I did not buy a lottery ticket this week, or I bought a lottery ticket this week and won the million dollar jackpot.
+(a) I did not buy a lottery ticket this week.  
+(b) I bought a lottery ticket this week, or, I won the million dollar jackpot.  
+(c) If I bought a lottery ticket this week, then I won the million dollar jackpot.  
+(d) I bought a lottery ticket this week and I won the million dollar jackpot.  
+(e) I bought a lottery ticket this week if and only if I won the million dollar jackpot.  
+(f) If I did not buy a lottery ticket this week, then I did not win the million dollar jackpot.  
+(g) I did not buy a lottery ticket this week and I did not win the million dollar jackpot.  
+(h) I did not buy a lottery ticket this week, or I bought a lottery ticket this week and won the million dollar jackpot.  
 
 ###### Exercises 10
-(a) The election is not decided.
-(b) The election is decided, or the votes have been counted.
-(c) The election is not decided or the votes have been counted.
-(d) If the votes have been counted then the election is decided.
-(e) If the votes have not been counted then the election is not decided.
-(f) If the election is not decided then the votes have not been counted.
-(g) The election is decided if and only if the votes have been counted.
-(h) Neither the votes have been counted nor the election is not decided and the votes have been counted.
+(a) The election is not decided.  
+(b) The election is decided, or the votes have been counted.  
+(c) The election is not decided or the votes have been counted.  
+(d) If the votes have been counted then the election is decided.  
+(e) If the votes have not been counted then the election is not decided.  
+(f) If the election is not decided then the votes have not been counted.  
+(g) The election is decided if and only if the votes have been counted.  
+(h) Neither the votes have been counted nor the election is not decided and the votes have been counted.  
 
 ###### Exercises 26 (p15)
-(a) You get a A in this course if and only if you learn how to solve discrete mathematics problems.
-(b) You will be informed and conversely if and only if you read the newspaper everyday.
-(c) It rains if and only if it is a weekend day.
-(d) You can see the wizard if and only if he is not in.
+(a) You get a A in this course if and only if you learn how to solve discrete mathematics problems.  
+(b) You will be informed and conversely if and only if you read the newspaper everyday.  
+(c) It rains if and only if it is a weekend day.  
+(d) You can see the wizard if and only if he is not in.  
 
 ###### Exercises 28
 (a)
-- converse: If I stay at home, then it will snow today.
+- converse: If I stay at home, then it will snow today.  
 - contrapostive: If I do not stay at home, then it will not snow today.
 - inverse: If it does not snow today, then I will not stay at home.
+
 (b)
 - converse: It is a sunny summer day whenever I go to the beach.  
 - contrapostive: It is not a sunny summer day whenever I do not go to the beach.
 - inverse: I do not go to the beach whenever it is not a sunny summer day.
+
 (c)
 - converse: When I sleep until noon, it is necessary that I stay up late.
 - contrapostive: When I do not sleep until noon, it is not necessary that I stay up late.
