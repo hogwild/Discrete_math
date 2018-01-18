@@ -164,7 +164,7 @@ From 3, we know that s is False. So, C can be a knave or spy. We suppose C is a 
 
 
 #### Chapter 1.3
-###### Exercises 6: verifying the first De Morgan law (p.34)
+###### Exercises 6: verifying the first De Morgan law (p.34)  
 
 $p$|$q$|$p\wedge q$|$\neg(p\wedge q)$|$\neg p$|$\neg q$|$\neg p \vee \neg q$
 :---:|:---:|:---:|:---:|:---:|:---:|:---:
