@@ -52,8 +52,8 @@
 ###### Exercises 34
 (a)
 p | p $\oplus$ p  
---- | ---
-T | F
+--- | ---  
+T | F  
 F | F
 
 Markdown | p $\oplus$ p | p $\oplus$ p
