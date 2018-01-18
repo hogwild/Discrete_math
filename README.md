@@ -199,7 +199,7 @@ Rita will neither move to Oregon nor Washington.
 Determine whether $(\neg p\wedge(p\rightarrow q))\rightarrow\neg q$ is a tautology.  
 
 $p$|$q$|$\neg p$|$p\rightarrow q$|$\neg p\wedge(p\rightarrow q)$|$\neg q$|$(\neg p\wedge(p\rightarrow q))\rightarrow \neg q$
----|---|---|---|---|---|---
+:---:|:---:|:---:|:---:|:---:|:---:|:---:
 T|T|F|T|F|F|T
 T|F|F|F|F|T|T
 F|T|T|T|T|F|F
