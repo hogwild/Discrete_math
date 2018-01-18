@@ -64,11 +64,14 @@ Markdown | p $\oplus$ p | p $\oplus$ p
 
 
 (b)
+
 p | $\neg$ p | p $\oplus$ $\neg$ p
 --- | --- | ---
 T|F|T
 F|T|T
+
 (c)
+
 p|q| $\neg$ q| p $\oplus$ $\neg$ q
 ---|---|---|---
 T|T|F|T
@@ -77,13 +80,16 @@ F|T|F|F
 F|F|T|T
 
 (d)
+
 p|q| $\neg$ p| $\neg$ q| $\neg$ p $\oplus$ $\neg$ q
 -|-|-|-|-
 T|T|F|F|F
 T|F|F|T|T
 F|T|T|F|T
 F|F|T|T|F
+
 (e)
+
 p|q| $\neg$ q|p $\oplus$ q|p $\oplus$ $\neg$ q|(p $\oplus$ q) $\vee$ (p $\oplus$ $\neg$ q)
 -|-|-|-|-|-
 T|T|F|F|T|T
@@ -92,6 +98,7 @@ F|T|F|T|F|T
 F|F|T|F|T|T
 
 (f)
+
 p|q| $\neg$ q|p $\oplus$ q|p $\oplus$ $\neg$ q|(p $\oplus$ q) $\wedge$ (p $\oplus$ $\neg$ q)
 -|-|-|-|-|-
 T|T|F|F|T|F
