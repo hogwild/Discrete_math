@@ -53,8 +53,8 @@
 (a)
 p | p $\oplus$ p
 --- | ---
-T|F
-F|F
+T | F
+F | F
 
 (b)
 p | $\neg$ p | p $\oplus$ $\neg$ p
