@@ -217,4 +217,105 @@ Suppose $(p\rightarrow q)\vee (p\rightarrow r)$ is False. So, we can know that $
 Therefore, the above statement holds.
 
 #### Chapter 1.4
-###### Exercises 2:
+###### Exercises 2: (p53)
+(a) True  
+(b) false  
+(c) false  
+(d) True  
+
+###### Exercises 8:
+(a) If the animal is a rabbit, then it hops.  
+(b) Every animal is a rabbit and it hops.
+(c) There is an animal, if it is a rabbit, then it hops.
+(d) There is an animal, it is a rabbit and it hops.
+
+###### Exercises 14:
+(a) True  
+(b) True  
+(c) True  
+(d) False, it does not holds when $x\le 0$.
+
+###### Exercises 18:
+$x \in \{ -2, -1, 0, 1, 2\}$  
+(a) $\vee_{x\in\{ -2, -1, 0, 1, 2\}}P(x)$  
+(b) $P(-2)\wedge P(-1)\wedge P(0)\wedge P(1)\wedge P(2)$  
+(c) $\neg P(-2)\vee \neg P(-1)\vee \neg P(0)\vee \neg P(1)\vee \neg P(2)$  
+(d) $\neg P(-2)\wedge \neg P(-1)\wedge \neg P(0)\wedge \neg P(1)\wedge \neg P(2)$  
+(e) $\neg\exists xP(x)$ = $\forall\neg P(x)$, so, we have $\neg P(-2)\wedge\neg P(-1)\wedge P(0)\wedge P(1)\wedge P(2)$  
+(f) $\neg\forall xP(x)$ = $\exists x \neg P(x)$ so, we have $\neg P(-2)\vee\neg P(-1)\vee\neg P(0)\vee\neg P(1)\vee\neg P(2)$
+
+###### Exercises 20: rewrite with negations, disjunctions, and conjunctions only.
+$x\in \{-5, -3, -1, 1, 3, 5\}$  
+(a) $\exists xP(x)$:  
+$P(-5)\vee P(-3)\vee P(-1)\vee P(1)\vee P(3)\vee P(5)$  
+
+(b) $\forall xP(x)$:  
+$P(-5)\wedge P(-3)\wedge P(-1)\wedge P(1)\wedge P(3)\wedge P(5)$
+
+(c) $\forall x((x\neq 3)\rightarrow P(x))$ = $\forall x(\neg(x\neq 3)\vee P(x))$ :  
+$(\neg(-5\neq 3)\vee P(-5))\wedge (\neg(-3\neq 3)\vee P(-3))\wedge(\neg(-1\neq 3)\vee P(-1))\wedge(\neg(1\neq 3)\vee P(1))\wedge(\neg(3\neq 3)\vee P(3))\wedge(\neg(5\neq 3)\vee P(5))$  
+
+(d) $\exists x((x\ge 0)\wedge P(x))$ :  
+$((-5\ge 0)\wedge P(-5))\vee((-3\ge 0)\wedge P(-3))\vee((-1\ge 0)\wedge P(-1))\vee((1\ge 0)\wedge P(1))\vee((3\ge0)\wedge P(3))\vee((5\ge0)\wedge P(5))$  
+
+(e) $\exists x(\neg P(x))\wedge\forall x((x < 0)\rightarrow P(x))$:
+$\neg P(-5)\vee\neg P(-3)\vee\neg P(-1)\vee\neg P(1)\vee\neg P(3)\vee\neg P(5)\wedge((\neg(-5<0)\vee P(5))\wedge(\neg(-3<0)\vee P(3))\wedge(\neg(-1<0)\vee P(-1))\wedge(\neg(1<0)\vee P(1))\wedge(\neg(3<0)\vee P(3))\wedge(\neg(5<0)\vee P(5)))$
+
+###### Exercises 26:
+(a) $U(x)$ : $x$ has visited Uzbekistan; $S(x)$ : $x$ is in your school
+- the domain of $x$ is the people in the school:
+  - $\exists xU(x)$
+- the domain of $x$ is all the people in the world:
+  - $\exists x(R(x)\wedge U(x))$
+
+(b) $C(x)$ : $x$ has studied C++; $Y(x)$ : $x$ is in your class
+- the domain of $x$ is the students in your class
+  - $\forall xC(x)$
+- the domain of $x$ is the people in the world
+  - $\forall x (Y(x)\rightarrow C(x))$
+
+(c) $S(x)$: $x$ is in your school; $B(x)$: $x$ has a bicycle; $M(x)$: $x$ has a motocycle.
+- the domain of $x$ is the students in your class
+  - $\neg\forall x(B(x)\wedge M(x))$
+- the domain of $x$ is the people in the world
+  - $\neg\forall x(S(x)\rightarrow B(x)\wedge M(x))$
+
+(d) $H(x)$: $x$ is happy; $S(x)$: $x$ is in your school
+- the domain of $x$ is the people in your school
+  - $\neg\forall xH(x)$
+- the domain of $x$ is the people in the world
+  - $\neg\forall x(S(x)\wedge H(x))$
+
+(e) $S(x)$: $x$ is in your class; $T(x)$: $x$ is born in 20th century
+- the domain of $x$ is the people in your class
+  - $\forall xT(x)$
+- the domain of $x$ is the people in the world
+  - $\forall x(S(x)\rightarrow T(x))$
+
+
+###### Exercises 28:
+(a) $P(x)$: $x$ is in the correct place  
+$\exists x(\neg P(x)) \equiv \neg\forall xP(x)$
+
+(b) $P(x)$: $x$ is in the correct place; $C(x)$: $x$ is in excellent condition; $T(x)$: $x$ is tool    
+$\forall x(T(x)\rightarrow P(x)\wedge C(x))$
+
+(c) $P(x)$: $x$ is in the correct place; $C(x)$: $x$ is in excellent condition;  
+$\forall x(P(x)\wedge C(x))$
+
+(d) $P(x)$: $x$ is in the correct place; $C(x)$: $x$ is in excellent condition;  
+$\neg\exists xP(x)\wedge(\neg\exists xC(x))$
+
+(e) $P(x)$: $x$ is in the correct place; $C(x)$: $x$ is in excellent condition;  
+$\exists x(\neg P(x)\wedge C(x))$, alternatively, $\exists x(P(x)\rightarrow C(x))$
+
+###### Exercises 30:
+(a) $P(1, 3)\vee P(2, 3)\vee P(3, 3)$  
+(b) $P(1, 1)\wedge P(1, 2)\wedge P(1, 3)$  
+(c) $\neg P(2, 1)\vee\neg P(2, 2)\vee\neg P(2, 3)$  
+(d) $\neg P(1, 2)\wedge\neg P(2, 2)\vee\neg P(3, 2)$
+
+###### Exercises 36:
+(a) $x\in \{0, 1\}$  
+(b) $x\in \{\sqrt{2}, -\sqrt{2}\}$  
+(c) $x = 0$
