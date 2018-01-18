@@ -56,7 +56,7 @@ p | p $\oplus$ p |
 T | F |
 F | F |
 
-Markdown | Less | Pretty
+Markdown | Less | p $\oplus$ p
 --- | --- | ---
 1 | 2 | 3
 
