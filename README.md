@@ -59,6 +59,7 @@ F | F
 Markdown | p $\oplus$ p | p $\oplus$ p
 --- | --- | ---
 1 | 2 | 3
+4 | 5 | 6
 
 
 (b)
