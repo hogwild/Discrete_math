@@ -162,3 +162,57 @@ From 3, we know that s is False. So, C can be a knave or spy. We suppose C is a 
 
 
 #### Chapter 1.3
+###### Exercises 6: verifying the first De Morgan law (p.34)
+
+$p$|$q$|$p\wedge q$|$\neg(p\wedge q)$|$\neg p$|$\neg q$|$\neg p \vee \neg q$
+:---:|:---:|:---:|:---:|:---:|:---:|:---:
+T|T|T|F|F|F|F
+T|F|F|T|F|T|T
+F|T|F|T|T|F|T
+F|F|F|T|T|T|T
+
+###### Exercises 8:
+(a)  
+$p$ : "Kwame will take a job in industry"  
+$q$ : "Kwame will go to graduate school"  
+Negation: $\neg (p\vee q)$  
+$\neg (p\vee q)\equiv \neg p\wedge \neg q$  
+Kwame will neither take a job in industry nor go to graduate school.  
+(b)  
+$p$ : "Yoshiko knows Java "  
+$q$ : "Yoshiko knows calculus"  
+Negation: $\neg(p\wedge q)\equiv \neg p\vee\neg q$  
+Yoshiko does not know Java or calculus.  
+(c)  
+$p$ : "James is young"
+$q$ : "James is strong"  
+Negation: $\neg(p\wedge q)\equiv \neg p\vee \neg q$  
+James is not young or not strong.  
+(d)  
+$p$ : "Rita will move to Oregon"  
+$q$ : "Rita will move to Washington"  
+Negation: $\neg(p\vee q)\equiv \neg p\wedge \neg q$  
+Rita will neither move to Oregon nor Washington.
+
+###### Exercises 14:   
+Determine whether $(\neg p\wedge(p\rightarrow q))\rightarrow\neg q$ is a tautology.  
+$p$|$q$|$\neg p$|$p\rightarrow q$|$\neg p\wedge(p\rightarrow q)$|$\neg q$|$(\neg p\wedge(p\rightarrow q))\rightarrow \neg q$
+---|---|---|---|---|---|---
+T|T|F|T|F|F|T
+T|F|F|F|F|T|T
+F|T|T|T|T|F|F
+F|F|T|T|T|T|T
+
+Therefore, it is not a tautology.  
+###### Exercises 22:
+Show that $(p\rightarrow q)\vee (p\rightarrow r)$ and $p\rightarrow (q\vee r)$ are logically equivalent.  
+logically equivalent: compound proposition that have the same truth values in all possible cases. (i.e., $p\leftrightarrow q$ is a tautology.)  
+
+Suppose $(p\rightarrow q)\vee (p\rightarrow r)$ is False. So, we can know that $p$ is True, $q$ and $r$ are both False. In such a case, it holds that $p\rightarrow (q\vee r)$ is False. Now, considering when $(p\rightarrow q)\vee (p\rightarrow r)$ is True:  
+1. If $p$ is False, then $p\rightarrow (q\vee r)$ is always True.  
+2. If $p$ is True, then at least one of $q$ and $r$ is True. So, $q\vee r$ is always True, and $p\rightarrow (q\vee r)$ is True.  
+
+Therefore, the above statement holds.
+
+#### Chapter 1.4
+###### Exercises 2:
