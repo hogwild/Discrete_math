@@ -51,6 +51,7 @@
 
 ###### Exercises 34
 (a)
+
 p | p $\oplus$ p  
 --- | ---  
 T | F  
