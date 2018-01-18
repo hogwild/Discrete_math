@@ -165,8 +165,6 @@ From 3, we know that s is False. So, C can be a knave or spy. We suppose C is a 
 
 #### Chapter 1.3
 ###### Exercises 6: verifying the first De Morgan law (p.34)
-Hello
- 
 $p$|$q$|$p\wedge q$|$\neg(p\wedge q)$|$\neg p$|$\neg q$|$\neg p \vee \neg q$
 -|-|-|-|-|-|-
 T|T|T|F|F|F|F
@@ -199,6 +197,7 @@ Rita will neither move to Oregon nor Washington.
 
 ###### Exercises 14:   
 Determine whether $(\neg p\wedge(p\rightarrow q))\rightarrow\neg q$ is a tautology.  
+
 $p$|$q$|$\neg p$|$p\rightarrow q$|$\neg p\wedge(p\rightarrow q)$|$\neg q$|$(\neg p\wedge(p\rightarrow q))\rightarrow \neg q$
 ---|---|---|---|---|---|---
 T|T|F|T|F|F|T
