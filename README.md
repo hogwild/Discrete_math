@@ -51,14 +51,14 @@
 
 ###### Exercises 34
 (a)
-p|p $\oplus$ p
----|---
+p | p $\oplus$ p
+--- | ---
 T|F
 F|F
 
 (b)
-p| $\neg$ p | p $\oplus$ $\neg$ p
----|---|---
+p | $\neg$ p | p $\oplus$ $\neg$ p
+--- | --- | ---
 T|F|T
 F|T|T
 (c)
