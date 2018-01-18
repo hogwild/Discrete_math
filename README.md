@@ -56,6 +56,12 @@ p | p $\oplus$ p
 T | F
 F | F
 
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
+
 (b)
 p | $\neg$ p | p $\oplus$ $\neg$ p
 --- | --- | ---
@@ -91,6 +97,7 @@ T|T|F|F|T|F
 T|F|T|T|F|F
 F|T|F|T|F|F
 F|F|T|F|T|F
+
 
 #### Chapter 1.2
 ###### Exercises 4 (p22)
